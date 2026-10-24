@@ -5,5 +5,16 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "ipykernel>=7.3.0",
+    "langchain-groq>=1.1.3",
+    "langchain-openai>=1.3.5",
+    "langgraph>=1.2.9",
     "pandas>=2.3.3",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+]
+
+[tool.uv.workspace]
+members = [
+    "AI_Travel_Planner",
 ]

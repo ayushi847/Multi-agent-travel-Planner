@@ -1,7 +1,26 @@
 
 
-// uv is wrapper on pip implement in other lguge 
+# // uv is wrapper on pip implement in other lguge 
 
-// uv is wrpper on pip which is package manager  of python on top of that one wrapper will be crrated using rust only 
+# // uv is wrpper on pip which is package manager  of python on top of that one wrapper will be crrated using rust only 
 
 
+langchain
+langchain-community
+langchain-experimental
+fastapi
+python-dotenv
+streamlit
+uvicorn
+pydantic
+httpx
+requests
+langchain_google_community
+langchain_tavily
+langchain_groq
+langchain_openai
+langgraph
+langchain-google-community[places]
+
+
+-e .

@@ -28,4 +28,4 @@ print(shutil.which("uv"))```
 
 streamlit run streamlit_app.py
 
-uvicorn main:app --reload --port 8000
+uvicorn main:app --reload --port 8000    
